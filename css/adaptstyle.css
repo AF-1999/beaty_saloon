@@ -1,0 +1,413 @@
+.band_holder .wrapper, .wrapper {
+    width: auto;
+    max-width: 1150px;
+}
+
+.band_holder_1660 .wrapper {
+    width: auto;
+    max-width: 1660px;
+}
+
+.band_holder {
+    min-width: 320px;
+}
+
+.band .band_background, .band .band_shadow {
+    min-width: 320px;
+}
+
+@media screen and (max-width:1155px){
+    /*фотографии*/
+        .ourphotos_row{grid-template-columns: repeat(3, 1fr);}
+}
+
+@media screen and (max-width:1110px) {
+    /*навигация*/
+        .menu div{margin-right: 35px;}
+    
+    /*верхний блок*/
+        .main_top{height: auto;}
+
+        .main_photo img{top:15px; position: relative;}
+
+        .main_marginer{display: block;}
+    
+    /*Услуги*/
+        .band_services{margin-top: 35px;}
+
+        .flex-wrap{flex-wrap: wrap;}
+
+        .category{width: 290px; height: 380px;}
+
+        .category img{width: 290px; height: 330px;}
+
+        .price h1{margin-top: 20px; font-size: 22px;}
+
+        .price p{margin-top: 5px; font-size: 15px;}
+
+        .price #line{margin-top: 20px;}
+
+        .price h2{margin-top: 7px; font-size: 22px;}
+
+        .more{ height: 50px; font-size: 22px;}
+
+        .lid{height: 50px;}
+
+        .category2{width: 290px; height: 380px;}
+
+        .category2 img{width: 290px;height: 330px;}
+
+        .category2:nth-last-child(2){margin-right: 0;}
+
+        .category2:last-child{margin: 90px auto 0 auto;}
+
+        .category2 img{width: 290px; height: 330px;}
+
+        .price2 h1{margin-top: 20px; font-size: 22px;}
+
+        .price2 p{margin-top: 5px; font-size: 15px;}
+
+        .price2 #line{margin-top: 20px;}
+
+        .price2 h2{margin-top: 7px; font-size: 22px;}
+
+        .more2{height: 50px; font-size: 22px;}
+
+        .lid2{height: 50px;}
+
+    /*Акции*/
+        .band_stocks h1{padding-top: 50px;}
+
+        .slide{width: 900px; height: 450px;}
+
+        .slide img {width:50%;}
+
+        .slide_text{width: 450px; padding-top: 50px; padding-left: 30px;}
+
+        .slide_text h2{font-size: 36px; line-height: 40px;}
+
+        .slide_text p{font-size: 14px; line-height: 20px;}
+
+    /*Форма*/
+        .form_elements{ flex-wrap: wrap;}
+
+        .inputs{
+            justify-content:space-between;
+            width: 100%;
+        }
+
+        .submit{margin: 35px 0 0 0; }
+
+    /*преимущества*/
+        .advantages__grid{grid-template-columns: 1fr 1fr; justify-items: center; }
+}
+@media screen and (max-width:930px){
+    /*навигация*/
+        .header_list div{margin-right: 30px;}
+    
+    /*верхний блок*/
+        .brand {background-size: 205px 55px; background-position-y: center; width: 395px;}
+    
+        .brand img{width: 200px; height: 55px;}
+    
+        .brand p{margin-top: 0;}
+    
+        .way{display: none ;}
+    
+        .direction{margin-top: 0;}
+        
+        .main_title h1{font-size: 28px; line-height: 34px;}
+    
+        .main_title h2{font-size: 45px; line-height: 42px;}
+    
+        #visited{width: 235px; height: 55px; margin-top: 25px;}
+    
+        #visited p{font-size: 32px;} 
+        
+    /*Услуги*/
+        .services_row__grid{column-gap: 15px;row-gap: 20px; }
+
+        .band_services{font-size: 54px;}
+
+        .category{width: 245px;height: 335px;}
+
+        .category img{width: 245px; height: 285px;}
+
+        .price h1{margin-top: 0px; font-size: 18px;}
+
+        .price p{margin-top: 0px; font-size: 13px;}
+
+        .price #line{margin-top: 10px;}
+
+        .price h2{margin-top: 0px; font-size: 18px;}
+
+        .more{ font-size: 20px;}
+
+        .category2{width: 245px; height: 335px;}
+
+        .category2:nth-last-child(2){margin-right: 0;}
+
+        .category2:last-child{margin: 90px auto 0 auto;}
+
+        .category2 img{width: 245px; height: 285px;}
+
+        .price2 h1{margin-top: 0px; font-size: 18px;}
+
+        .price2 p{margin-top: 0px; font-size: 13px;}
+
+        .price2 #line{margin-top: 10px;}
+
+        .price2 h2{margin-top: 0px; font-size: 18px;}
+
+        .more2{font-size: 20px;}
+
+    /*Акции*/
+        .band_stocks h1{font-size: 50px;}
+
+        .slider{width: 735px; height: 350px;}
+        
+        .slide img {height:63%; width: 28%;}
+
+        .slide_text{width: 450px; padding-top: 10px; padding-left: 30px;}
+
+        .slide_text h2{font-size: 36px; line-height: 40px;}
+
+        .slide_text p{font-size: 14px; line-height: 17px; margin-top:0;}
+
+        .slide #visited{margin-top:25px;}
+
+    /*достижения*/
+        .statist h1{font-size: 88px;}
+
+        .statist h2{font-size: 15px;}
+
+    /*Форма*/
+        form{width:95%; margin: 0 auto 90px auto;}
+
+    /*фотографии*/
+        .ourphotos_row{grid-template-columns: repeat(2, 1fr);}
+}
+    
+
+@media screen and (max-width:768px){
+    /*навигация*/    
+        .header_list li{margin-right: 15px;}
+
+        .nav_container{height: 70px; line-height: 1;} 
+
+        .header_menu{
+            display: none;
+            position: fixed;
+            top: 55px;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 50;
+            transition: all 0.3s ;
+        }
+    
+        .number{ margin-left: auto; font-size: 20px; }
+
+        body.lock{overflow: hidden }
+
+        .header_burger{display: block; z-index: 6000;}
+
+        .header_list{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header_list div{margin: 0 0 15px 15px;}
+
+        .header_list div:first-child{padding-top: 0;}
+
+        .header_link:hover{border: none;}
+
+        .header_band .band_background{background-color: rgba(0, 0, 0, 0.8);}
+
+        .header_menu.active{ display: block;}
+    
+    /*верхний блок*/
+        .place{display: none;}
+    
+        .company{justify-content: center;}
+
+        .company{padding-top: 75px;}
+    
+        .direction p{font-size: 12px; line-height: 1.99;}
+    
+        .direction p span{font-size: 18px; }
+
+        .brand{justify-content: center;}
+
+        .brand p{}
+
+        .main_top{justify-content: center;}
+        
+        .main_title{text-align: center; min-width: 0;}
+
+        .main_title h1{font-size: 26px; line-height: 34px;}
+
+        .main_title h2{font-size: 40px; line-height: 42px;}
+
+        .main_photo{display: none;}
+    
+        .main_marginer{height: 50px;}
+
+    /*Услуги*/
+        .band_services span{margin-top: 20px; font-size: 43px; text-align: center;}
+
+        .category{margin-top: 20px;}
+
+        .services_row{display: none;}
+
+        .services_row_mobile{display: flex; justify-content: space-between;}
+
+        .category_col{margin-top: 25px; width: 49%; position: relative;}
+
+        .prise_mobile{position: relative;}
+
+        .prise__mobile-absolute{position:absolute; top: 0; right: 0;}
+
+        .category_col:last-child{margin: 25px auto 0 auto;}
+
+    /*Акции*/
+        .slider{box-shadow: none;}
+        
+    /*достижения*/
+        .products__row{flex-wrap: wrap;}    
+        
+        .statist{width: 50%;}
+    
+    /*Форма*/
+        form{width:65%;}
+
+        .form{display:flex; flex-wrap: wrap; justify-content: center; padding: 15px 30px; }
+
+        .form_elements{margin: 0 auto; display:block;}
+
+        .inputs{flex-direction: column; flex-wrap:wrap;}
+
+        .input_name{margin: 10px 0 0 0; width: 100%;}
+
+        .input_phone{margin: 35px 0 0 0; width: 100%;}
+
+        .input_time{margin: 35px 0 0 0; width: 100%;}
+
+        .submit{margin: 35px 0 0 0; }
+
+        .button{text-align: center;}
+
+        .form h1{text-align: center; font-size: 16px;}
+
+        .form p{text-align: center; font-size: 14px;}
+
+    /*преимущества*/
+        .advantages__grid{grid-template-columns: 1fr; }
+
+    /*Фотогалерея*/
+        .ourphotos_buttons{justify-content: space-between;}
+    
+    /*Бренды*/
+        .brands{display:grid; gap:30px; grid-template-columns: repeat(2, 1fr); margin: 65px 45px; }
+        
+        .brands__col:nth-child(2n){text-align: right;}
+
+        .brands__img{text-align: center; padding: 10px 20px;}
+
+        .brands__img img{overflow: hidden;}
+
+        .brands_content{flex-wrap: wrap; justify-content: center; text-align: center;}
+
+        .brands_content p {padding: 0;}
+
+    /*контакты*/
+        .map_content{ justify-content: center;}
+
+        .map_photo{display:none;}
+}
+
+@media screen and (max-width:622px){
+    /*Услуги*/
+        .services_row_mobile{display: flex;justify-content: center;}
+
+        .category_col{margin-top: 25px; width: 70%; min-width: 290px;}
+
+    /*фотографии*/
+        .ourphotos_row{grid-template-columns: repeat(1, 1fr);}
+
+    /*Бренды*/
+        .brands__img{max-height: none;}
+    
+    
+}
+
+@media screen and (max-width:410px){
+    /*верхний блок*/
+        .company{padding-top: 60px;}
+
+        .brand{display: block; margin-top: 30px; width: 100%; text-align: center;}
+    
+        .brand img{position: relative;}
+
+        .main_title{margin-top: 50px;}
+
+        .main_title h1{font-size: 24px; }
+    
+        .main_title h2{font-size: 36px; } 
+
+        #visited{width: 185px; height: 55px; margin-top: 25px;  }
+    
+        #visited p{font-size: 16px;} 
+
+    /*Услуги*/
+        .band_services{font-size: 32px; text-align: left; margin-top: 20px;}
+
+        .category{margin-top: 0px;}
+        
+    /*достижения*/        
+        .statist{width: 100%;}
+
+    /*Форма*/
+        form{width:85%;}
+
+
+        .form h1{text-align: left;}
+
+        .form p{text-align: left; font-size: 12px;}
+
+    /*Фото*/
+        .photo_button{margin: 0 20px}
+
+    /*Бренды*/
+        .brands{grid-template-columns: 1fr; row-gap: 45px; justify-items: center;}
+
+    /*контакты*/
+}
+
+@media screen and (max-width:320px){
+    /*верхний блок*/
+    .main_band .band_background {
+        background-image: url(../img/photo_top-mobile.png);
+        background-repeat: no-repeat;  
+    }
+
+    .company{justify-content: left;}
+
+    .brand{text-align: left;}
+
+    .main_top{justify-content: left; }
+
+    .main_title{text-align: left;}
+
+    /*Услуги*/
+    .services_row_mobile{
+        display: flex;
+        justify-content: left;
+    }
+
+    .category_col{margin-top: 15px; width: 100%;}
+}
+
+   
+        
